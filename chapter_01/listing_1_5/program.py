@@ -14,8 +14,8 @@ def print_fib(number: int) -> None:
 
 
 def fibs_no_threading():
-    print_fib(40)
-    print_fib(41)
+    print_fib(37)
+    print_fib(38)
 
 
 start = time.time()

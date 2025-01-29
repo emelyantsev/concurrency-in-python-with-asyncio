@@ -15,8 +15,8 @@ def print_fib(number: int) -> None:
 
 
 def fibs_with_threads():
-    fortieth_thread = threading.Thread(target=print_fib, args=(40,))
-    forty_first_thread = threading.Thread(target=print_fib, args=(41,))
+    fortieth_thread = threading.Thread(target=print_fib, args=(37,))
+    forty_first_thread = threading.Thread(target=print_fib, args=(38,))
 
     fortieth_thread.start()
     forty_first_thread.start()
