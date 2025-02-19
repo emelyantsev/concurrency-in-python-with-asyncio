@@ -13,6 +13,16 @@
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "env" :{ "PYTHONPATH" : ":/home/aleksey/Coding/concurrency-in-python-with-asyncio/util" }
+        },
+
+        {
+            "name": "Python Debugger: Attach using Process ID",
+            "type": "debugpy",
+            "request": "attach",
+            "connect": {
+                "host": "localhost",
+                "port": 5678
+            }
         }
     ]
 }
