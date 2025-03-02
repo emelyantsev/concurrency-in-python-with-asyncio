@@ -3,5 +3,6 @@
     "python.analysis.diagnosticSeverityOverrides": {
       "reportGeneralTypeIssues": "none",
       "reportInvalidTypeForm": "none",
+      "reportAttributeAccessIssue": "none",
     }
   }

@@ -6,3 +6,4 @@
 4. [Concurrent web requests](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_04)
 5. [Non-blocking database drivers](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_05)
 6. [Handling CPU-bound work](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_06)
+7. [Handling blocking work with threads](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_07)
