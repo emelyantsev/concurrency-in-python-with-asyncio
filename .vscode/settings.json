@@ -4,5 +4,6 @@
       "reportGeneralTypeIssues": "none",
       "reportInvalidTypeForm": "none",
       "reportAttributeAccessIssue": "none",
+      "reportOptionalMemberAccess": "none"
     }
   }
