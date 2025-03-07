@@ -5,3 +5,5 @@ export PYTHONPATH="${PYTHONPATH}:/home/aleksey/Coding/concurrency-in-python-with
 pip freeze > requirements.txt 
 
 /usr/bin/time -v python chapter_06/listing_6_07/program.py
+
+reset // to return terminal to echo mode

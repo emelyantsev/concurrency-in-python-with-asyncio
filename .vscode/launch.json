@@ -16,7 +16,7 @@
         },
 
         {
-            "name": "Python Debugger: Attach using Process ID",
+            "name": "Python Debugger: Attach to process launched by debugpy",
             "type": "debugpy",
             "request": "attach",
             "connect": {
