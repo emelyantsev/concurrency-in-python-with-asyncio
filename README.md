@@ -8,3 +8,4 @@
 6. [Handling CPU-bound work](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_06)
 7. [Handling blocking work with threads](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_07)
 8. [Streams](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_08)
+9. [Web applications](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_09)
