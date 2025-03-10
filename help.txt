@@ -7,3 +7,12 @@ pip freeze > requirements.txt
 /usr/bin/time -v python chapter_06/listing_6_07/program.py
 
 reset // to return terminal to echo mode
+
+
+gunicorn -w 8 chapter_09.listing_9_05.program:app
+
+wrk -t1 -c200 -d30s http://localhost:8080/brands
+wrk -t1 -c200 -d30s http://localhost:8000/brands
+
+python -m debugpy --listen 5678 env/bin/gunicorn -w 8 chapter_09.listing_9_05.program:app
+

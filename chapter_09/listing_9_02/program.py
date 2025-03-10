@@ -38,9 +38,11 @@ async def brands(request: Request) -> Response: #C
     return web.json_response(result_as_dict)
 
 
-app = web.Application()
-app.on_startup.append(create_database_pool) #D
-app.on_cleanup.append(destroy_database_pool)
+if __name__ == "__main__":
 
-app.add_routes(routes)
-web.run_app(app)
+    app = web.Application()
+    app.on_startup.append(create_database_pool) #D
+    app.on_cleanup.append(destroy_database_pool)
+
+    app.add_routes(routes)
+    web.run_app(app)
