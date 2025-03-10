@@ -8,7 +8,6 @@ pip freeze > requirements.txt
 
 reset // to return terminal to echo mode
 
-
 gunicorn -w 8 chapter_09.listing_9_05.program:app
 
 wrk -t1 -c200 -d30s http://localhost:8080/brands
@@ -16,3 +15,11 @@ wrk -t1 -c200 -d30s http://localhost:8000/brands
 
 python -m debugpy --listen 5678 env/bin/gunicorn -w 8 chapter_09.listing_9_05.program:app
 
+gunicorn -w 8 chapter_09.listing_9_06.program
+uvicorn chapter_09.listing_9_07.program:application
+
+python -m debugpy --listen 5678 env/bin/uvicorn -w 8 chapter_09.listing_9_08.program:app
+
+gunicorn async_views.asgi:application -k uvicorn.workers.UvicornWorker
+
+// http://localhost:8000/requests/?url=https://ya.ru&request_num=1000
