@@ -9,3 +9,4 @@
 7. [Handling blocking work with threads](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_07)
 8. [Streams](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_08)
 9. [Web applications](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_09)
+10. [Microservices](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_10)
