@@ -5,6 +5,7 @@
       "reportInvalidTypeForm": "none",
       "reportAttributeAccessIssue": "none",
       "reportOptionalMemberAccess": "none",
-      "reportArgumentType": "none"
+      "reportArgumentType": "none",
+      "reportOptionalOperand": "none"
     }
   }
