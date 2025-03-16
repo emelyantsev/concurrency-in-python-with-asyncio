@@ -23,3 +23,6 @@ python -m debugpy --listen 5678 env/bin/uvicorn -w 8 chapter_09.listing_9_08.pro
 gunicorn async_views.asgi:application -k uvicorn.workers.UvicornWorker
 
 // http://localhost:8000/requests/?url=https://ya.ru&request_num=1000
+
+
+cat requirements.txt | nc -q 0 localhost 9000 (! use -q 0 for closing socket)
