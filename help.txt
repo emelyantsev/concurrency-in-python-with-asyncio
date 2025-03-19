@@ -26,3 +26,5 @@ gunicorn async_views.asgi:application -k uvicorn.workers.UvicornWorker
 
 
 cat requirements.txt | nc -q 0 localhost 9000 (! use -q 0 for closing socket)
+
+curl -X POST http://127.0.0.1:8080/order
