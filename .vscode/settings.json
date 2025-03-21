@@ -7,6 +7,7 @@
       "reportOptionalMemberAccess": "none",
       "reportArgumentType": "none",
       "reportOptionalOperand": "none",
-      "reportIndexIssue": "none"
+      "reportIndexIssue": "none",
+      "reportCallIssue": "none"
     }
   }
