@@ -19,3 +19,4 @@
 A. [Selectors](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/Appendix/A_Selectors)
 B. [Custom awaitable](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/Appendix/B_CustomAwaitable)
 C. [Deployment with nginx and gunicorn](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/Appendix/C_DeployingWithNginx)
+D. [Websockets](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/Appendix/D_Websockets)
