@@ -40,6 +40,8 @@ while True: #D
     try:
         state = coro.send(None)
 
+        print(type(state))
+
         events = selector.select()
 
         for key, mask in events:

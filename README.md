@@ -14,3 +14,7 @@
 12. [Asynchronous queues](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_12)
 13. [Managing subprocesses](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_13)
 14. [Advanced asyncio](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/chapter_14)
+
+#### Appendix
+A. [Selectors](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/Appendix/A_Selectors)
+B. [Custom awaitable](https://github.com/emelyantsev/concurrency-in-python-with-asyncio/tree/main/Appendix/B_CustomAwaitable)

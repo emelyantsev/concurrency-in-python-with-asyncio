@@ -9,7 +9,8 @@ while True:
         print('Checking future...')
         gen = future.__await__()
         print("after await")
-        gen.send(None)
+        send_res = gen.send(None)
+        print(type(send_res))
         print('Future is not done...')
         if i == 1:
             print('Setting future value...')

@@ -21,6 +21,7 @@ class CustomFuture:
         self._done_callback = fn
 
     def __await__(self):
+        #print("_await_")
         if not self._is_finished:
             yield self
         return self.result()

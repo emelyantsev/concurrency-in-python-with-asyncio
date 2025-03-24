@@ -8,6 +8,7 @@
       "reportArgumentType": "none",
       "reportOptionalOperand": "none",
       "reportIndexIssue": "none",
-      "reportCallIssue": "none"
+      "reportCallIssue": "none",
+      "reportAssignmentType": "none"
     }
   }
