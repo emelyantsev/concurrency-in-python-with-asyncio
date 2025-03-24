@@ -29,3 +29,12 @@ cat requirements.txt | nc -q 0 localhost 9000 (! use -q 0 for closing socket)
 
 curl -X POST http://127.0.0.1:8080/order
 curl -X POST -d '{"power_user":"False"}' localhost:8080/order
+
+
+
+gunicorn -w 4 Appendix.C_DeployingWithNginx.program:my_web_app --bind localhost:8080 --worker-class aiohttp.GunicornWebWorker
+
+gunicorn -w 4 --threads 8 Appendix.C_DeployingWithNginx.program:my_web_app --bind localhost:8080 --worker-class aiohttp.GunicornWebWorker
+
+// use unix socket
+gunicorn -w 4 --threads 8 Appendix.C_DeployingWithNginx.program:my_web_app --bind unix:/run/gunicorn.sock --worker-class aiohttp.GunicornWebWorker

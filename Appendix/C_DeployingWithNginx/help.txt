@@ -1,0 +1,7 @@
+https://docs.aiohttp.org/en/stable/deployment.html
+https://docs.gunicorn.org/en/latest/deploy.html
+https://dev.to/tkirwa/create-a-systemd-service-script-for-running-gunicorn-to-serve-your-application-5aea
+
+sudo systemctl start nginx
+sudo systemctl start gunicorn
+
